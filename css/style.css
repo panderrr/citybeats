@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Montserrat";
+  src:url("/fonts/Montserrat-Medium.ttf");
+}
+body {
+  background: white;
+}
+h1 {
+ color: #3D5B93;
+ /* this is some commentary hehe */
+ text-align: center;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 400;
+ font-size: 30px;
+}
+
+.citybeatsheader {
+    padding-top: 20px;
+}
+
+.citybeatshero {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #3D5B93;
+  padding-bottom: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+
+hr {
+  background-color: #C552A8; height: 1px;border-width: 0; max-width: 960px;text-align: left;
+}
+
+.circlerow {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  padding-top: 15px;
+}
+
+.column {
+  flex: 25%;
+  padding: 35px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #EEF5F8;
+  }
+
+
+  }
